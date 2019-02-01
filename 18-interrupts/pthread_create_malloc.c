@@ -1,5 +1,7 @@
 #include <func.h>
 
+
+//创建新分支
 void* pthreadfunc(void *p)
 {
     char *pchild=(char*)p; //强转成 char *
